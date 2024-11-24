@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5CBE1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #b1595e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 h2 h3 {
+    color: #B1595E;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    margin: 20px;
+}
+
+/* navigation bar */
+nav {
+    background-color: #B1595E;
+    overflow: hidden;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav .logo {
+    float: left;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #0AFE13;
+    text-decoration: underline;
+}
+
+/* main Section */
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Form Styling */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    width: 50%;
+    border: 2px solid #B1595E;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #B1595E;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #66CC66;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #B1595E;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background-color: white;
+    color: #333;
+}
+
+table td {
+    background-color: #f9f9f9;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #b1595e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
